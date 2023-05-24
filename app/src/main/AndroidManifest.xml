@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:text="My Unit Converter"
+        android:theme="@style/Theme.MyUnitConverter"
+        tools:targetApi="31">
+        <activity
+            android:name=".speed1"
+            android:exported="false" />
+        <activity
+            android:name=".torque_cal"
+            android:exported="false" />
+        <activity
+            android:name=".power_cal"
+            android:exported="false" />
+        <activity
+            android:name=".resistance_cal"
+            android:exported="false" />
+        <activity
+            android:name=".freq_cal"
+            android:exported="false" />
+        <activity
+            android:name=".force_cal"
+            android:exported="false" />
+        <activity
+            android:name=".current_cal"
+            android:exported="false" />
+        <activity
+            android:name=".storage_cal"
+            android:exported="false" />
+        <activity
+            android:name=".energy_cal"
+            android:exported="false" />
+        <activity
+            android:name=".pressure_cal"
+            android:exported="false" />
+        <activity
+            android:name=".fuel_cal"
+            android:exported="false" />
+        <activity
+            android:name=".area_cal"
+            android:exported="false" />
+        <activity
+            android:name=".time_cal"
+            android:exported="false" />
+        <activity
+            android:name=".volume_cal"
+            android:exported="false" />
+        <activity
+            android:name=".speed_cal"
+            android:exported="false" />
+        <activity
+            android:name=".length_cal"
+            android:exported="false" />
+        <activity
+            android:name=".weight_cal"
+            android:exported="false" />
+        <activity
+            android:name=".SplashScreen"
+            android:exported="false" />
+        <activity
+            android:name=".temp_cal"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
